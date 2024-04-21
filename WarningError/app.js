@@ -21,7 +21,6 @@ async function consumeMessages(){
             channel.ack(msg);
         }
     })
-console.log("ggggggggggggggggg")
 }
 
 consumeMessages()
